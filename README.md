@@ -1,4 +1,4 @@
-# [Belly Button Biodiversity: Project Overview](https://github.com/sarahgrant11/plotly-challenge) 
+## [Belly Button Biodiversity: Project Overview](https://github.com/sarahgrant11/plotly-challenge) 
 
 * Created a tool that does XYZ to help/determine XYZ.
 * Scraped over 1,000 job descriptions from Glaassdoor using Python and Selenium.
@@ -8,7 +8,7 @@
 
 ![](/images/hw02.png)
 
-# [Covid-19's Impact on the NBA: Project Overview](https://tylerspck.github.io/Final_Project/index.html)
+## [Covid-19's Impact on the NBA: Project Overview](https://tylerspck.github.io/Final_Project/index.html)
 
 * Built a machine-learning model using nearly-complete season statistics for the NBA & WNBA to determine probability of a "win." 
 * Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
@@ -16,7 +16,7 @@
 
 ![](/images/hw02.png)
 
-# [Earthquake & Seismic Activity Visualization: Project Overview](https://github.com/sarahgrant11/leaflet-challenge)
+## [Earthquake & Seismic Activity Visualization: Project Overview](https://github.com/sarahgrant11/leaflet-challenge)
 
 * Created two-layer heat map of earthquake and tectonic plate/seismic activity over the last 30 days
 * Ssing the UCGS GeoJSON feed
@@ -24,7 +24,7 @@
 
 ![](/images/leaflet.jpg)
 
-# [Health Risk Factors Visualization: Project Overview](https://github.com/sarahgrant11/d3-challenge)
+## [Health Risk Factors Visualization: Project Overview](https://github.com/sarahgrant11/d3-challenge)
 
 * Created visualization using HTML, Javascript, and D3
 * Show correlations between rates of obesity, smoking status and healthcare access with rates of poverty, household income and age, based
@@ -32,7 +32,7 @@
 
 ![](/images/health_risk.gif)
 
-# [The Joy of 2020: Project Overview](https://github.com/tylerspck/Data-Story-Project-World-Happiness)
+## [The Joy of 2020: Project Overview](https://github.com/tylerspck/Data-Story-Project-World-Happiness)
 * Using World Bank and Kaggle data we created an application and visualizations showing every country's happiness for last six years. 
 * Data cleaning with python, used Flask app for creating API from SQL database, used D3 for the visualizations. 
 * Tech Environment: Python, JavaScript, D3, MapBox, Plotly, Leaflet, SQL, Slack, Zoom, GitHub, VSCode
