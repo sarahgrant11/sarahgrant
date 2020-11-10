@@ -1,9 +1,7 @@
 # Sarah Grant
 // Data science portfolio
 
-# [: Project Overview](https://github.com/sarahgrant11/plotly-challenge) 
-
-![](https://github.com/sarahgrant11/sarahgrant11.github.io/blob/main/images/bacteria.jpg)
+# [Belly Button Biodiversity: Project Overview](https://github.com/sarahgrant11/plotly-challenge) 
 
 * Created a tool that does XYZ to help/determine XYZ.
 * Scraped over 1,000 job descriptions from Glaassdoor using Python and Selenium.
