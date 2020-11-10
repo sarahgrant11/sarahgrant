@@ -8,23 +8,33 @@
 
 ![](/images/hw02.png)
 
-#[: Project Overview] link to repo
-For this project I built a ball classifier to identify balls from different sports. This could be usful for someone who i new to sports from a certain country. They could take a picture of a ball and an app could serve them some informations about the hidtory and rules of the game. This is the underling model building something with those capabilities. I was able to get the model to preict hte sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user o the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencis and solid results. 
+# [Covid-19's Impact on the NBA: Project Overview](https://tylerspck.github.io/Final_Project/index.html)
 
-#[: Project Overview] link to repo
-* 
-* 
-*
-*
+* Built a machine-learning model using nearly-complete season statistics for the NBA & WNBA to determine probability of a "win." 
+* Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
+* Tech Environment: HTML5, Spark, Bootstrap, React.js, Slack, Zoom, GitHub, VSCode
 
-#[: Project Overview] link to repo
-* 
-* 
-*
-*
+![](/images/hw02.png)
 
-#[: Project Overview] link to repo
-* 
-* 
-*
-*
+# [Earthquake & Seismic Activity Visualization: Project Overview](https://github.com/sarahgrant11/leaflet-challenge)
+
+* Created two-layer heat map of earthquake and tectonic plate/seismic activity over the last 30 days
+* Ssing the UCGS GeoJSON feed
+* Leaflet, MapBox, Javascript and HTML.
+
+![](/images/hw02.png)
+
+# [Health Risk Factors Visualization: Project Overview](https://github.com/sarahgrant11/d3-challenge)
+
+* Created visualization using HTML, Javascript, and D3
+* Show correlations between rates of obesity, smoking status and healthcare access with rates of poverty, household income and age, based
+* Census data in every state.
+
+![](/images/hw02.png)
+
+# [The Joy of 2020: Project Overview](https://github.com/tylerspck/Data-Story-Project-World-Happiness)
+* Using World Bank and Kaggle data we created an application and visualizations showing every country's happiness for last six years. 
+* Data cleaning with python, used Flask app for creating API from SQL database, used D3 for the visualizations. 
+* Tech Environment: Python, JavaScript, D3, MapBox, Plotly, Leaflet, SQL, Slack, Zoom, GitHub, VSCode
+
+![](/images/hw02.png)
