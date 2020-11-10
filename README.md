@@ -22,7 +22,7 @@
 * Ssing the UCGS GeoJSON feed
 * Leaflet, MapBox, Javascript and HTML.
 
-![](/images/hw02.png)
+![](/images/leaflet.jpg)
 
 # [Health Risk Factors Visualization: Project Overview](https://github.com/sarahgrant11/d3-challenge)
 
@@ -30,7 +30,7 @@
 * Show correlations between rates of obesity, smoking status and healthcare access with rates of poverty, household income and age, based
 * Census data in every state.
 
-![](/images/hw02.png)
+![](/images/health_risk.gif)
 
 # [The Joy of 2020: Project Overview](https://github.com/tylerspck/Data-Story-Project-World-Happiness)
 * Using World Bank and Kaggle data we created an application and visualizations showing every country's happiness for last six years. 
