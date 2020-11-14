@@ -22,7 +22,9 @@
 * Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
 * Tech Environment: HTML5, Spark, Bootstrap, React.js, Slack, Zoom, GitHub, VSCode
 
-![](/images/nba.mp4)
+![](/images/nba_points.gif)
+
+![](/images/nba_stats.gif)
 
 ### [Earthquake & Seismic Activity Visualization: Overview](https://github.com/sarahgrant11/leaflet-challenge)
 
