@@ -1,3 +1,13 @@
+### [Covid-19's Impact on the NBA: Project Overview](https://tylerspck.github.io/Final_Project/index.html)
+
+* Built a machine-learning model using nearly-complete season statistics for the NBA & WNBA to determine probability of a "win." 
+* Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
+* Tech Environment: HTML5, Spark, Bootstrap, React.js, Slack, Zoom, GitHub, VSCode
+
+![](/images/nba_points.gif)
+
+![](/images/nba_stats.gif)
+
 ### [Health Risk Factors Visualization: Overview](https://github.com/sarahgrant11/d3-challenge)
 
 * Created visualization using HTML, Javascript, and D3
@@ -14,17 +24,7 @@
 * Optimized Linear, Lasso and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using Flask. 
 
-![](/images/hw02.png)
-
-### [Covid-19's Impact on the NBA: Project Overview](https://tylerspck.github.io/Final_Project/index.html)
-
-* Built a machine-learning model using nearly-complete season statistics for the NBA & WNBA to determine probability of a "win." 
-* Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
-* Tech Environment: HTML5, Spark, Bootstrap, React.js, Slack, Zoom, GitHub, VSCode
-
-![](/images/nba_points.gif)
-
-![](/images/nba_stats.gif)
+![](/images/BB_full.gif)
 
 ### [Earthquake & Seismic Activity Visualization: Overview](https://github.com/sarahgrant11/leaflet-challenge)
 
