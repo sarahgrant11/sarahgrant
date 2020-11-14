@@ -14,7 +14,7 @@
 * Show correlations between rates of obesity, smoking status and healthcare access with rates of poverty, household income and age, based
 * Census data in every state.
 
-![](/images/health_risk.gif)
+![](/images/census_full.gif)
 
 ### [Belly Button Biodiversity: Overview](https://github.com/sarahgrant11/plotly-challenge) 
 
