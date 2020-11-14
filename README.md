@@ -35,7 +35,7 @@
 * Ssing the UCGS GeoJSON feed
 * Leaflet, MapBox, Javascript and HTML.
 
-![](/images/leaflet.jpg)
+![](images/leaflet_25.gif)
 
 
 # [The Joy of 2020: Project Overview](https://github.com/tylerspck/Data-Story-Project-World-Happiness)
