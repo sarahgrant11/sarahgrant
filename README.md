@@ -2,7 +2,6 @@
 
 * Built a machine-learning model using nearly-complete season statistics for the NBA & WNBA to determine probability of a "win." 
 * Group Project awarded "Most Potential For Impact" by Columbia Engineering admin; presented at CU's Demo Day 2020. 
-* Tech Environment: HTML5, Spark, Bootstrap, React.js, Slack, Zoom, GitHub, VSCode
 
 ![](/images/nba_points.gif)
 
