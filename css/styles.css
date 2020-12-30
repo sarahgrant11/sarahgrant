@@ -6,7 +6,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 body {
 	background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Scope One', serif;
     font-weight: 400;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -99,7 +99,7 @@ header {
 }
 
 h1 {
-    font-family: 'Domine', serif;
+    font-family: 'Scope One', serif;
     font-weight: 700;
     font-size: 4rem;
     text-transform: uppercase;
@@ -112,7 +112,7 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: #30aaa0;
+    color: #67f255;
 }
 
 h2 {
@@ -133,7 +133,7 @@ h3 {
 
 .intro a, .follow a, figcaption a {
     text-decoration: none;
-    color: #30aaa0;
+    color: #2b8c33;
 }
 
 .email {
@@ -142,7 +142,7 @@ h3 {
 }
 
 .intro a:hover, .follow a:hover, figcaption a:hover {
-    border-bottom: 1.5px solid #30aaa0;
+    border-bottom: 1.5px solid #2b8c33;
     /* text-decoration: underline; */
 }
 
@@ -176,7 +176,7 @@ h3 {
 
 .social:hover i:hover {
     opacity: 1.0;
-    color: #30aaa0;
+    color: #2b8c33;
 }
 
 .carto {
