@@ -1,44 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
-    <meta charset="UTF-8">
-    <title>Sarah Grant</title>
-    <link rel="icon" href="assets/sarah_image.png">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cutive&family=Lora:wght@700&display=swap"
-        rel="stylesheet">
+    <!-- required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/styles.css">
+
+    <!-- fontastic -->
+    <link href="https://file.myfontastic.com/godme2fsw9VZRrcJbAWwGS/icons.css" rel="stylesheet">
+
+    <!---->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--logo-->
+    <link rel="icon" href="sarah_image.png">
+	
+    <title>Sarah Grant</title>
+    
 </head>
 
-<body>
-    <div id='wrapper'>
-        <header>
-            <h1>
-                <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I&apos;m Sarah Grant."]'>
-                    <span class="wrap"></span>
-                </a>
-            </h1>
-            <p class='intro'>I'm a data analyst and journalist offering a sharp editorial eye and elegant solutions for
-                data
-                visualization. Excellent research skills with 10 years of print/digital news experience. Deeply
-                knowledgeable about the music industry, digital streaming services and
-                chart analysis.</p>
-            <div class="social">
-                <a href="https://twitter.com/sarahgrant?lang=en"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/sarahhgrant/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/sarahgrant11/"><i class="fab fa-github-alt"></i></a>
-                <a href="mailto: sarahgrant11@gmail.com"><i class="fas fa-envelope"></i></a>
-                <p class="email">sarahgrant11@gmail.com</p>
-            </div>
-        </header>
-        <main>
-            <div class="viz_nav">
-                <h2>Data & Design</h2>
-            </div>
-            <section class='viz_wrapper'>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- .navbar -->
+
+    <div class="collapse" data-spy="affix" id="navbar">
+            
+        <!-- tabs -->
+        <ul class="nav nav-stacked navbar-fixed-top text-xs-center hidden-nav p-t-1">
+        <li class="hidden hidden-link">
+            <a href="#data">Data</a>
+        </li>
+        <li class="hidden hidden-link">
+            <a href="#articles">Articles</a>
+        </li>
+        <li class="hidden hidden-link">
+            <a href="#services">What I Do</a>
+        </li>
+        <li class="hidden hidden-link">
+            <a href="#resume">Resum&eacute;</a>
+        </li>
+        <li class="hidden-link">
+            <a href="#about">About</a>
+        </li>
+        <li class="hidden-btn">
+            <a class="icon-paper-plane" href="#contact"> Let's Talk</a>
+        </li>
+        </ul> 
+        <!-- /tabs -->
+    </div>
+
+<nav id="home" class="navbar navbar-light navbar-fixed-top bg-medium" role="navigation">
+      
+      <div class="container">
+
+      <button class="navbar-toggler hidden-lg-up pull-xs-right" type="button" data-toggle="collapse" data-target="#navbar">
+        &#9776;
+      </button>
+      
+        <!-- logo -->
+        <a class="navbar-brand" href="#home">
+            <h5>Sarah Grant<span class="sub-header text-muted hidden-lg-down">  Data Journalist</span></h5>
+        </a>
+      
+        <div class="collapse navbar-toggleable-md" id="navbar">
+        
+            <!-- tabs -->
+            <ul class="bg-light nav navbar-nav pull-md-right">
+              <li class="nav-item tab-style">
+                <a class="nav-link" href="#data">Data</a>
+              </li>
+              <li class="nav-item tab-style">
+                <a class="nav-link" href="#articles">Articles</a>
+              <li class="nav-item tab-style">
+                <a class="nav-link" href="#services">What I Do</a>
+              </li>
+              <li class="nav-item tab-style">
+                <a class="nav-link" href="#resume">Resum&eacute;</a>
+              </li>
+              <li class="nav-item tab-style">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item tab-btn">
+                  <a class="nav-link icon-paper-plane" href="#contact">Let's Talk</a>
+              </li>
+            </ul> <!-- /tabs -->
+
+        </div> <!-- /.collapse -->
+
+    </div> <!-- /.container -->
+
+</nav> <!-- /.navbar -->
+
+<!-- data -->
+    <main>
+        <section>
+        <div id="data" class="viz_wrapper">
+            <div id="data"></div>
                 <ul class="gallery clearfix">
                     <li>
                         <figure>
@@ -87,9 +152,27 @@
                     <li>
                 </ul>
             </section>
-            <div class="viz_nav" id='articles'>
-                <h2>Select articles</h2>
-            </div>
+<!-- Caption -->
+<div class="col-caption col-caption-hp hidden-md-down">
+    <div class="col-caption-content">
+        <i class="icon-link img-circle text-xs-center"></i>
+    </div>
+</div>
+</a>
+</div>
+</div>
+</div> <!-- /.row -->
+</div> <!-- /.col-lg-6 -->
+</div> <!-- /.row -->
+</div> <!-- /portfolio -->
+
+ <!-- service -->
+
+ <div id="services" class="bg-medium">
+    <div class="container p-t-1">
+        <h1 class="text-xs-center p-t-3 p-b-1 m-t-2">Select Articles</h1>
+        <div class="col-lg-4 p-y-2">
+
             <section class='viz_wrapper'>
                 <ul class="gallery clearfix">
                     <li>
@@ -127,81 +210,202 @@
                         </figure>
                     </li>
                 </ul>
+            </div>
+		</div> <!-- /.container -->
+    </div> <!-- /service -->
+
             </section>
     </div>
-    <p class='follow'>For more of my writing, check out <a href='https://www.sarahhgrant.com'>www.sarahhgrant.com.</a></p>
-    </main>
-    <footer>
-        <p>© Sarah Grant 2020</p>
-    </footer>
+    
+    <!-- resume -->
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        // here we go 
+	<aside id="resume" class="bg-dark p-b-1">
+		<div class="container text-xs-center p-y-3">
+			<h1 class="p-t-1 p-b-1">Resum&eacute;</h1>
+			<a type="button" class="btn btn-secondary icon-file-text" href="assets/SG_CDRES_2020.pdf" download> Download PDF Resume</a>
+		</div>
+    </aside> 
+    
+    <!-- /resume -->
 
-        var TxtType = function (el, toRotate, period) {
-            this.toRotate = toRotate;
-            this.el = el;
-            this.loopNum = 0;
-            this.period = parseInt(period, 10) || 2000;
-            this.txt = '';
-            this.tick();
-            this.isDeleting = false;
-        };
+	<!-- about -->
 
-        TxtType.prototype.tick = function () {
-            var i = this.loopNum % this.toRotate.length;
-            var fullTxt = this.toRotate[i];
+	<div id="about" class="bg-primary">
+		<div class="container p-t-1 p-b-3">
+			<h1 class="text-xs-center p-t-3 p-b-1 m-t-2">Get to Know Me</h1>
 
-            if (this.isDeleting) {
-                this.txt = fullTxt.substring(0, this.txt.length - 1);
-            } else {
-                this.txt = fullTxt.substring(0, this.txt.length + 1);
-            }
+			<div class="p-b-3">
+				<div class="col-lg-6 p-b-3">
+					<img class="thumbnail p-t-2" src="assets/sarah_image.png">
+				</div>
+				<div class="col-lg-6">
+					<p class=" about-text"><strong>Sarah Grant is a journalist</strong> with 10+ years of experience.</p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /about -->
 
-            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+	<!-- contact -->
 
-            var that = this;
-            var delta = 200 - Math.random() * 100;
+	<aside id="contact" class="bg-color p-b-1">
+		<div class="container text-xs-center p-y-3">
+			<h1 class="p-t-1 p-b-1">Let's Talk</h1>
+		
+			<a type="button" class="btn btn-tertiary icon-paper-plane" href="mailto:sarahgrant11@gmail.com"> sarahgrant11@gmail.com</a>
+		</div>
+	</aside> <!-- /contact -->
 
-            if (this.isDeleting) {
-                delta /= 2;
-            }
 
-            if (!this.isDeleting && this.txt === fullTxt) {
-                delta = this.period;
-                this.isDeleting = true;
-                if (this.loopNum + 1 === this.toRotate.length) { // add this to stop
-                    return;
-                }
-            } else if (this.isDeleting && this.txt === '') {
-                this.isDeleting = false;
-                this.loopNum++;
-                delta = 500;
-            }
+    <!-- footer-->
 
-            setTimeout(function () {
-                that.tick();
-            }, delta);
-        };
+    <footer id="footer" class="bg-dark text-muted">
+        
+        <div class="container footer-content p-y-2">    
+          
+            <ul class="clearfix p-l-0">
+                <a href="https://www.linkedin.com/in/sarahhgrant">
+                  <li class="icon icon-linkedin p-r-1"></li>
+              </a>
+              <a href="https://www.instagram.com/maddoggrant/">
+                  <li class="icon icon-instagram p-r-1"></li>
+              </a>
+              <a href="https://twitter.com/sarahgrant">
+                  <li class="icon icon-twitter p-r-1"></li>
+              </a>
+              <a href="https://github.com/sarahgrant11">
+                  <li class="icon icon-github p-r-1"></li>
+              </a>
+              <a href="mailto: sarahgrant11@gmail.com">
+                  <li class="fas fa-envelope"></i></li>
+              </a>
+          </ul>
+          
+          <p class="p-x-2">&copy; 2020 Sarah Grant LLC  |  Custom website built by my cat Bongo, who uses <a href="http://v4-alpha.getbootstrap.com/">Bootstrap 4</a></p>
+        
+        </div>
 
-        window.onload = function () {
-            var elements = document.getElementsByClassName('typewrite');
-            for (var i = 0; i < elements.length; i++) {
-                var toRotate = elements[i].getAttribute('data-type');
-                var period = elements[i].getAttribute('data-period');
-                if (toRotate) {
-                    new TxtType(elements[i], JSON.parse(toRotate), period);
-                }
-            }
-            // INJECT CSS
-            var css = document.createElement("style");
-            css.type = "text/css";
-            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-            document.body.appendChild(css);
-        };
-    </script>
-</body>
-
-</html>
+      </footer> 
+      
+      <!-- /footer -->
+  
+      <!-- bootstrap jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+      <!-- bootstrap javascript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  
+      <!-- loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT -->
+      <script>
+          (function(w){
+              "use strict";
+              /* exported loadCSS */
+              var loadCSS = function( href, before, media ){
+                  // Arguments explained:
+                  // `href` [REQUIRED] is the URL for your CSS file.
+                  // `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
+                      // By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
+                  // `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
+                  var doc = w.document;
+                  var ss = doc.createElement( "link" );
+                  var ref;
+                  if( before ){
+                      ref = before;
+                  }
+                  else {
+                      var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+                      ref = refs[ refs.length - 1];
+                  }
+          
+                  var sheets = doc.styleSheets;
+                  ss.rel = "stylesheet";
+                  ss.href = href;
+                  // temporarily set media to something inapplicable to ensure it'll fetch without blocking render
+                  ss.media = "only x";
+          
+                  // wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
+                  function ready( cb ){
+                      if( doc.body ){
+                          return cb();
+                      }
+                      setTimeout(function(){
+                          ready( cb );
+                      });
+                  }
+                  // Inject link
+                      // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
+                      // Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+                  ready( function(){
+                      ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+                  });
+                  // A method (exposed on return object for external use) that mimics onload by polling document.styleSheets until it includes the new sheet.
+                  var onloadcssdefined = function( cb ){
+                      var resolvedHref = ss.href;
+                      var i = sheets.length;
+                      while( i-- ){
+                          if( sheets[ i ].href === resolvedHref ){
+                              return cb();
+                          }
+                      }
+                      setTimeout(function() {
+                          onloadcssdefined( cb );
+                      });
+                  }
+          
+                  function loadCB(){
+                      if( ss.addEventListener ){
+                          ss.removeEventListener( "load", loadCB );
+                      }
+                      ss.media = media || "all";
+                  }
+          
+                  // once loaded, set link's media back to `all` so that the stylesheet applies once it loads
+                  if( ss.addEventListener ){
+                      ss.addEventListener( "load", loadCB);
+                  }
+                  ss.onloadcssdefined = onloadcssdefined;
+                  onloadcssdefined( loadCB );
+                  return ss;
+              }
+              // commonjs
+              if( typeof exports !== "undefined" ){
+                  exports.loadCSS = loadCSS;
+              }
+              else {
+                  w.loadCSS = loadCSS;
+              }
+          }( typeof global !== "undefined" ? global : this ));
+  
+          // Google Fonts
+          WebFontConfig = {
+              google: { families: [ 'Open+Sans:400,700:latin', 'Lora:400,700:latin' ] }
+          };
+          
+          (function() {
+              var wf = document.createElement('script');
+              wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+              wf.type = 'text/javascript';
+              wf.async = 'true';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(wf, s);
+          })();
+  
+          // Remove Sticky Hover Effect on Mobile Devices
+          document.addEventListener('touchstart', function addtouchclass(e){ // first time user touches the screen
+              document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
+              document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
+          }, false)
+  
+          // Google Analytics
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+          ga('create', 'UA-81901623-1', 'auto');
+          ga('send', 'pageview');
+          
+      </script>
+  
+  </body>
+  
+  </html>
