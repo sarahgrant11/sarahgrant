@@ -1,0 +1,12 @@
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .viz_wrapper {
+    max-width: 750px;
+  }
+
+  .gallery {
+    row-gap: 30px;
+    grid-template-columns: repeat(2, minmax(auto, 350px) );
+  }
+}
