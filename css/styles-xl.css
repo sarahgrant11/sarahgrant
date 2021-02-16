@@ -1,0 +1,63 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  /* ---- services ---- */
+
+  .screen-img {
+      min-width: 75%;
+  }
+
+  /* ---- about ---- */
+
+  .thumbnail {
+      max-width: 75%;
+      margin-left: 5rem;
+  }
+
+  .about-text {
+      padding-top: 6rem;
+  }
+
+  /* ---- footer ---- */
+
+  .footer-content {
+      max-height: 100px;
+  }
+
+  .footer-content p {
+      float: right;
+      text-align: right;
+      padding-top: .425rem;
+      padding-bottom: 1%;
+  }
+
+  .footer-content ul {
+      padding-bottom: .425rem;
+  }
+
+  /* ---- card styling ---- */
+
+  .card-columns {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+  }
+
+  /* ---- .col-caption styling ---- */
+
+  .col-caption i {
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 15px 15px 5px 15px;
+      font-size: 35px;
+  }
+
+  .viz_wrapper {
+    max-width: 1080px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}

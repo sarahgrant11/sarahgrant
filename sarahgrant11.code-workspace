@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "sarahgrant11.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#38283D",
+			"titleBar.activeBackground": "#4E3855",
+			"titleBar.activeForeground": "#FBFAFC"
+		}
+	}
+}

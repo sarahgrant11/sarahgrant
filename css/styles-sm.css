@@ -1,0 +1,21 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  /* ---- card styling ---- */
+
+  .card-columns {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1;
+  }
+
+  .viz_wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    grid-auto-rows: 285px;
+  }
+
+}
