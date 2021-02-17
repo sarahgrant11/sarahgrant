@@ -7,6 +7,44 @@
 
   .gallery {
     row-gap: 30px;
+    grid-auto-rows: 285px;
     grid-template-columns: repeat(2, minmax(auto, 350px) );
   }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: unset;
+    background-color: rgba(0,0,0,.7);
+    /* background-color: rgba(217,0,87,0.7); */
+
+    border-radius: 20px;
+  }
+
+  figure img {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .caption {
+    color: white;
+    position: relative;
+    transform: translate(0, -50%);
+    top: 50%;
+  }
+
+  figure:hover figcaption {
+    display: block;
+  }
+
+  .viz_wrapper ul li,
+  .viz_wrapper ul li figure,
+  .viz_wrapper ul li figure img {
+    height: 100%;
+  }
+
 }
