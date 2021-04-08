@@ -230,7 +230,7 @@ html.can-touch .btn-tertiary:focus {
 
 .bg-dark {
   color: #fff;
-  background:linear-gradient(#666C, #666C), url(../assets/leaf_bg.png);
+  background:linear-gradient(#666C, #666C), url(../assets/Resume/leaf_bg.png);
   background-position: center center;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
@@ -594,7 +594,7 @@ Footer
 /* ---- social icons ---- */
 
 .icon-paper-plane:before {
-  content: "\6a";
+  content: "";
 }
 
 .icon-paper-plane:before,
