@@ -14,8 +14,4 @@
     margin: 0 auto;
   }
 
-  .gallery {
-    grid-auto-rows: 285px;
-  }
-
 }
